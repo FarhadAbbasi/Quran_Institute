@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cstyle.css">
+    <title>Contact Form</title>
+</head>
+
+<body>
+
+    <div class="cont-title">
+        <h1>Welcome !</h1>
+        <h2>We are here to help you </h2>
+    </div>
+
+    <div class="contact-form"></div>
+        <form id="contact-form" method="POST" action="cont-form-handler.php">
+            <input type="text" name="Name" class="form-cntrl" placeholder="Your Name" required> 
+            <br>
+            <input type="text" name="E-mail" class="form-cntrl" placeholder="E-mail" required> 
+            <br>
+            <input type="text" name="Phone" class="form-cntrl" placeholder="Phone"> 
+            <br>
+ 
+            <textarea name="message" class="form-cntrl" placeholder="message" cols="30" rows="5" required> 
+            </textarea>
+            <br>
+
+            <input type="submit" name="send" class="form-cntrl submit" value="Send Message">
+        </form>
+
+    
+</body>
+</html>
