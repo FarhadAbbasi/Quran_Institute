@@ -466,7 +466,7 @@ nav .bi {
     /* box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3) ; */
 }
 .layer{
-    background: linear-gradient( rgb(0, 150, 136, 0.4), rgba(0,0,0, 0.1) );
+    background: linear-gradient( rgb(0, 150, 136, 0.3), rgba(0,0,0, 0.1) );
     border-bottom-left-radius: 10%;
     border-top-right-radius: 10%;
     width: 100%;
@@ -499,7 +499,8 @@ nav .bi {
     height: 50px;
     border-radius: 10px;
     font-size: 30px;
-    color: #009688;
+    color: #fff;
+    background: #009688;
     border: 1px solid #007777;
 }
 .feature-text p{
