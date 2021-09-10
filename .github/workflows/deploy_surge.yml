@@ -36,5 +36,5 @@ jobs:
         run: npm install -g surge
         
       - name: Run Surge
-        run: surge ./ Quran-institute.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ quran-institute.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
