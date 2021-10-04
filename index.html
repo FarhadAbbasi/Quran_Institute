@@ -28,7 +28,7 @@
 <body>
 
     <!-- Top Bar Start -->
-    <div class="top-bar d-none d-md-block">
+    <!-- <div class="top-bar d-none d-md-block">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
@@ -46,7 +46,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="col-md-4">
                     <div class="top-bar-right">
                         <div class="social">
@@ -67,7 +67,9 @@
 
     <section class="header">
         <nav>
-            <a href="index.html"><img src="imgs/logo-white.png" id="logo" alt="FALAH Institute"></a>
+            <!-- <a href="index.html"><img src="imgs/logo-white.png" id="logo" alt="FALAH Institute"></a> -->
+                    <!-- <h1 class="logo">FALAH INSTITUTE</h1> -->
+                    <a class="logo" href="index.html">FALAH INSTITUTE </a>
 
             <div class="nav_links" id="navlinks">
                 <i class="bi bi-x-circle-fill" onclick="hideMenu()"></i>
@@ -85,7 +87,7 @@
 
 
         <div class="banner-text">
-            <h1> Quran Institute </h1>
+            <h1> QURAN INSTITUTE </h1>
             <p> Learning Quran is now the easiest thing for Kids to do at home <br> You can do it with just ONE
                 <em>click</em> <br>
             </p>
@@ -542,19 +544,33 @@
             speedAsDuration: true
         });
 
-        window.onscroll = function () { scrollFunction() };
+        // window.onscroll = function () { scrollFunction() };
+
+        // function scrollFunction() {
+        //     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        //         document.getElementById("navlinks").style.padding = "0px 10px";
+        //         document.getElementById("navlinks").style.background = "#007777dd";
+        //         document.getElementById("logo").style.visibility = "hidden";
+        //     } else {
+        //         document.getElementById("navlinks").style.padding = "40px 10px";
+        //         document.getElementById("navlinks").style.background = "#00777733";
+        //         document.getElementById("logo").style.visibility = "visible";
+        //     }
+        // }
 
         function scrollFunction() {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navlinks").style.padding = "0px 10px";
-                document.getElementById("navlinks").style.background = "#007777dd";
+                document.getElementById("navlinks").style.padding = "0px 0px";
+                document.getElementById("navlinks").style.background = "#00000055";
                 document.getElementById("logo").style.visibility = "hidden";
+           
             } else {
-                document.getElementById("navlinks").style.padding = "40px 10px";
-                document.getElementById("navlinks").style.background = "#00777733";
-                document.getElementById("logo").style.visibility = "visible";
+                document.getElementById("navlinks").style.padding = "5px 0px";
+                document.getElementById("navlinks").style.background = "#00000055";
+                document.getElementById("logo").style.visibility = "hidden";
             }
         }
+
 
     </script>
 
