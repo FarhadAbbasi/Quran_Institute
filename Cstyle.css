@@ -3,7 +3,7 @@ body {
     padding: 0;
     text-align: center;
     /* background: linear-gradient(rgba(0, 120, 120, 0.9) , rgba(0, 120, 120, 0.9)), url(imgs/\(10\).jpg) ; */
-    background: linear-gradient(#007777dd , #007777dd), url(imgs/bckgrnd.jpg);
+    background: linear-gradient(#00335cdd , #00335cdd), url(imgs/bckgrnd.jpg);
     background-position: center;
     background-size: cover;
     font-family: sans-serif;
@@ -59,3 +59,14 @@ form{
     color: #fff;
     cursor: pointer;
 }
+
+@media (max-width: 700px) {
+    .form-cntrl {
+       width: 250px;
+    }
+    .submit {
+    width: 200px;
+    font-size: 16px;
+
+    }
+    }
