@@ -153,7 +153,7 @@ nav img{
 .nav_links ul li{
     list-style: none ;
     display: inline-block;
-    padding: 10px  20px;
+    padding: 10px  15px;
     position: relative;
     /* border: 2px solid white; */
 }
@@ -554,7 +554,6 @@ nav .bi {
     font-size: 30px;
     color: #fff;
     background: #00335cdd;
-    border: 3px solid #01fe87;
 }
 .feature-text p{
     padding: 0 0px;
@@ -673,12 +672,14 @@ nav .bi {
     flex-wrap: wrap;
 }
 .tes-col {
+    background: #f2f8f8;
     flex-basis: 26%;
     display: block;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #00335c44;
+    box-shadow: 0 3px 10px 1px #00335c44;
+    border: 1px solid #00335c22;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -699,7 +700,8 @@ nav .bi {
     font-size: 14px;
 }
 .tes-col:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
+    background: #fff;
 }
 @media (max-width: 700px){
     .tes-col {
@@ -719,7 +721,7 @@ nav .bi {
     padding: 50px 0 20px;
     width: 100%;
     /* background: #00335c; */
-    background: linear-gradient( #dad8d8ee , #dad8d8dd), url(imgs/\(10\).jpg);
+    background: linear-gradient( #c2ebfdee , #e3bff7dd), url(imgs/\(10\).jpg);
 
 }
 .contact {
@@ -762,7 +764,7 @@ nav .bi {
 }
 .con-col {
     flex-basis: 30%;
-    border: 1px solid #00335c;
+    border: 2px solid #00335c77;
     background: #fff;
     display: block;
     margin: auto;
@@ -772,7 +774,7 @@ nav .bi {
 }
 .con-col:hover {
     transform: translateY(-2px);
-    box-shadow: 0px 5px 10px #29113a;
+    box-shadow: 0px 2px 5px #29113a;
 }
 .con-row{
     display: block;
@@ -782,7 +784,7 @@ nav .bi {
 .con-row h2{
     font-weight: 500;
     color: #00335c;
-    padding: 10px;
+    padding: 4px;
 }
 .contact .bi{
     font-size: 20px;
@@ -832,7 +834,7 @@ nav .bi {
     font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
-    background: #00335cdd;
+    background: #029766dd;
     border: none;
     border-radius: 3px;
     transition: .3s;
@@ -840,7 +842,7 @@ nav .bi {
 
 .contact .contact-form .btn:hover {
     color: #fff;
-    background:#00335c;
+    background:#018145;
 }
 
 .contact .help-block ul {
@@ -891,6 +893,11 @@ nav .bi {
     font-weight:600;
     color: #fff;
     padding-top: 80px;
+    transition: 00.5s;
+}
+.foot-cont h1:hover {
+    transform: translateY(-5px);
+    -webkit-text-stroke: 0.5px #01fe87;
 }
 .foot-row {
     display: flex;
@@ -909,7 +916,13 @@ nav .bi {
 }
 .foot-col img {
     height: 200px;
+    transition: 00.5s;
 }
+.foot-col img:hover {
+    transform: translateY(-5px);
+    -webkit-text-stroke: 1px #01fe87;
+}
+
 .foot-col ul li a {
     color: blanchedalmond;
     text-decoration: none;

@@ -8,7 +8,8 @@ body {
     text-align: center;
     padding: 0;
     margin: auto;
-    background: linear-gradient(#00335cdd , #00335cdd), url(imgs/bckgrnd.jpg);
+    /* background: linear-gradient(#00335cdd , #00335c88), url(imgs/bckgrnd.jpg); */
+    background: linear-gradient(#00335cdd , #00335cdd), url(imgs/\(4\).jpg);
     background-position: center;
     background-size: cover;
     font-family: sans-serif;
@@ -23,6 +24,7 @@ body {
 .cont-title h1{
     font-size: 32px;
     line-height: 10px;
+    color: #01cc6c;
 }
 .cont-title h2{
     font-size: 20px;

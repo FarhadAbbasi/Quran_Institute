@@ -77,6 +77,7 @@
 
 	body {
 		background: #202024;
+		background: linear-gradient(#00335cee , #00335cdd), url(images/\(4\).jpg);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -293,6 +294,12 @@
 	header h6 + p {
 		font-size: 0.9em;
 		margin-top: -0.6em;
+	}
+
+	#main {
+		background: #00335c22 ;
+		border: 2px solid #00335cdd;
+		width: 100%;
 	}
 
 /* Box */
