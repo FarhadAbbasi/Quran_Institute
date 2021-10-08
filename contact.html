@@ -18,21 +18,53 @@
     <div class="contact-form"></div>
         <!-- <form id="contact-form" method="POST" action="cont-form-handler.php"> -->
             
-        <form id="contact-form" method="POST" action="https://app.99inbound.com/api/e/-vchcKnX">
-            <input type="text" name="Name" class="form-cntrl" placeholder="Enter your Name" required> 
-            <br>
-            <input type="text" name="E-mail" class="form-cntrl" placeholder="Enter your E-mail" required> 
-            <br>
-            <input type="text" name="Phone" class="form-cntrl" placeholder="Enter your Phone"> 
-            <br>
+            <!-- <form id="contact-form" method="POST" action="https://app.99inbound.com/api/e/-vchcKnX"> -->
+            <!-- <form id="contact-form" method="POST" action="https://formsubmit.co/falahindeen@gmail.com"> -->
+
+        <form id="contact-form" method="POST" action="https://formsubmit.co/falahindeen@gmail.com">
+            
+            <input type="hidden" name="_subject" value="New form submission!">
+            <input type="hidden" name="_cc" value="abbasiali336@gmail.com">
+            <input type="hidden" name="_autoresponse" value="Thanks for your message, we'll get back to you soon.">
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="text" name="name" class="form-cntrl" placeholder="Enter your Name" required> <br>
+
+            <input type="email" name="email" class="form-cntrl" placeholder="Enter your E-mail" required> <br>
+            
+            <input type="text" name="phone" class="form-cntrl" placeholder="Enter your Phone"> <br>
  
-            <textarea name="Message" class="form-cntrl" placeholder="Type your message" cols="30" rows="5" required> 
-            </textarea>
-            <br>
+            <textarea name="message" class="form-cntrl" placeholder="Type your message" cols="30" rows="5" required> </textarea> <br>
 
             <input type="submit" name="Send" class="form-cntrl submit" value="Send Message">
+
+            <input type="hidden" name="_next" value="https://quran-institute.surge.sh/thanks.html">
+            <!-- <input type="hidden" name="_next" value="http://quraninstitute.unaux.com/thanks.html"> -->
+
         </form>
 
+
+    <!-- ////////////////////////////////  Template formsubmit.co  //////////////////////////////////////////// -->
+        <!-- <div class="container">
+            <h1>FormSubmit Demo</h1>
+            <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+            </form>
+          </div> -->
     
 </body>
 </html>
+

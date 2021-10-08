@@ -350,10 +350,15 @@ nav .bi {
 .title-text p::after{
     content: '';
     width: 30px;
-    height: 10px;
-    background: linear-gradient(  #00335caa, #fff);
+    height: 20px;
+    top: 8px;
+    background: linear-gradient(  #009688, #ffffff00);
     position: absolute;
+    margin: auto;
+    transform: translateX(5px) ;
+    /* display: block; */
 }
+
 .title-text h1{
     font-size: 40px;
     font-weight: 600;
@@ -549,7 +554,7 @@ nav .bi {
     font-size: 30px;
     color: #fff;
     background: #00335cdd;
-    border: 1px solid #00335cdd;
+    border: 3px solid #01fe87;
 }
 .feature-text p{
     padding: 0 0px;
@@ -680,7 +685,7 @@ nav .bi {
 .user {
     align-items: center;
     margin-top: 20px;
-    margin-left: 80px;
+    text-align: center;
 }
 .user img {
     width: 150px;
@@ -714,7 +719,7 @@ nav .bi {
     padding: 50px 0 20px;
     width: 100%;
     /* background: #00335c; */
-    background: linear-gradient( #b9e4e0f5 , #accae4dd), url(imgs/\(10\).jpg);
+    background: linear-gradient( #dad8d8ee , #dad8d8dd), url(imgs/\(10\).jpg);
 
 }
 .contact {
@@ -729,7 +734,10 @@ nav .bi {
     padding: 45px 0;
 }
 .trial h2{
+    color: #00335ccc;
     text-align: center;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #01fe87;
     transition: 0.5s;
     margin-bottom: 10px;
 }
@@ -738,12 +746,11 @@ nav .bi {
     font-size: 35px;
     font-weight:bolder;
     font-style: normal;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 0.2px #fff;
     padding: 0 5px;
 }
 .trial h2:hover {
     transform: translateY(-7px);
-    cursor: pointer;
     text-shadow: 1px 2px 5px #fff;
 }
 .contact .row {
@@ -775,13 +782,14 @@ nav .bi {
 .con-row h2{
     font-weight: 500;
     color: #00335c;
+    padding: 10px;
 }
 .contact .bi{
     font-size: 20px;
     color: #00335c;
     border: 1px solid #00335c;
     border-radius: 50%;
-    padding: 5px 10px;
+    padding: 7px 10px;
     transition: 0.5s;
 }
 .contact .bi:hover {
@@ -952,4 +960,28 @@ nav .bi {
     height: 180px ;
 
 }
+}
+
+
+.thumbnails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    background: linear-gradient(#00335caa , #009688), url("imgs/bckgrnd.jpg");
+}
+ .box{
+    flex-basis: 27%;
+    background: #007070;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+.box img{
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 200px;
 }

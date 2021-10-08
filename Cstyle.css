@@ -1,13 +1,19 @@
 body {
-    margin: 0;
-    padding: 0;
+    min-height: 100vh; 
+    /* Define height of the page */
+    align-items: center;
+    /* Align items in center vertically */
+    justify-content: center;
+    /* Align items in center horizontally */
     text-align: center;
-    /* background: linear-gradient(rgba(0, 120, 120, 0.9) , rgba(0, 120, 120, 0.9)), url(imgs/\(10\).jpg) ; */
+    padding: 0;
+    margin: auto;
     background: linear-gradient(#00335cdd , #00335cdd), url(imgs/bckgrnd.jpg);
     background-position: center;
     background-size: cover;
     font-family: sans-serif;
 }
+
 .cont-title {
     margin-top: 80px;
     color: #fff;
@@ -70,3 +76,33 @@ form{
 
     }
     }
+
+.wraper {
+    color: #fff;
+    display: block;
+    padding: 200px;
+    
+}
+ span {
+    color: #01cc6c;
+}
+
+.banner-btn {
+    margin: 10px  0;
+}
+.banner-btn a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    color: #fff;
+    background:#fb565ecc;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a:hover{
+    background:#fb565e;
+
+}
