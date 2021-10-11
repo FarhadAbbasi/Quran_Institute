@@ -11,7 +11,7 @@ body {
     /* background: linear-gradient(#00335cdd , #00335c88), url(imgs/bckgrnd.jpg); */
     background: linear-gradient(#00335cdd , #00335cdd), url(imgs/\(4\).jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     font-family: sans-serif;
 }
 
@@ -108,3 +108,239 @@ form{
     background:#fb565e;
 
 }
+
+/* ////////////////////  CONTACT  /////////////////////// */
+
+#contact {
+    background: linear-gradient(#9ed1fcdd , #6dfcb4cc) , url(imgs/\(72\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    padding: 30px;
+}
+
+#contact h1 {
+    color: #00335c;
+    font-size: 30px;
+}
+.con-row {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.con-col{
+    flex-basis: 30%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.con-col h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    padding: 4px;
+}
+.con-col p{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+/* .con-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: #fff;
+    background: #00335cdd;
+} */
+
+.con-row .bi{
+    font-size: 25px;
+    color: #ddd;
+    /* background: #00335cdd; */
+    background: #000000cc;
+    /* border: 1px solid #00335c; */
+    border-radius: 50%;
+    padding: 10px 12px;
+    transition: 0.5s;
+}
+.con-row .bi:hover {
+    background: #00335c;
+    color: #fff;
+}
+
+.map{
+    margin: auto;
+    background: linear-gradient(#00335cee , #76cacaee) , url(imgs/\(9\).jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+.map h1 {
+    color: #fff;
+}
+.map iframe{
+    border: 5px solid #00335c;
+    padding: 20px;
+ 
+}
+
+
+@media (max-width: 700px) {
+
+    #contact {
+        padding: 30px 10px;
+    }
+
+    .con-row {
+        display: block ;
+        width: 80%;
+    }
+    .con-col {
+        margin-bottom: 20px;
+    }
+    .map{
+        padding: 50px 10px;
+     }
+    .map iframe {
+        max-width: 300px;
+        height: 100%;
+        padding: 30px 0px;
+    }
+}
+
+
+
+/* -------------------- Footer--------------------------------- */
+#footer{
+    background: #ffffff;
+    margin-top: 50px;
+}
+.image-masjid {
+    background-image: url(imgs/masjid1.png);
+    height: 180px ;
+    background-position: right top;
+}
+.foot-cont {
+    /* background: #00335c; */
+    background: linear-gradient(#00335cdd , #00335cdd), url(imgs/\(4\).jpg);
+    background-size: contain;
+    display: block;
+}
+
+.foot-cont h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight:600;
+    color: #fff;
+    padding-top: 80px;
+    transition: 00.5s;
+}
+.foot-cont h1:hover {
+    transform: translateY(-5px);
+    -webkit-text-stroke: 0.5px #01fe87;
+}
+.foot-row {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.foot-col {
+    flex-basis: 45%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+.foot-col img {
+    height: 200px;
+    transition: 00.5s;
+}
+.foot-col img:hover {
+    transform: translateY(-5px);
+    -webkit-text-stroke: 1px #01fe87;
+}
+
+.foot-col ul li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 20 px;
+    padding-bottom: 20px;
+}
+
+.foot-row h3 {
+    font-weight: 400;
+}
+.foot-row .bi {
+    padding: 10px;
+}
+
+.foot-social {
+    text-align: center;
+}
+.foot-social .bi{
+    padding: 10px;
+    color:#ffffff;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #00335c;
+    border-radius: 5px;
+    line-height: 30px;
+    cursor: pointer;
+    transition: 0.5s;    
+}
+.foot-social .bi:hover {
+    background: #ffffff;
+    color: #00335c;
+    transform: translateY(-7px);
+}
+.foot-social p{
+    margin-top: 10px;
+    color:lightgreen;
+}
+@media (max-width: 700px) {
+    .foot-row{
+        display: block;
+    }
+    .foot-col {
+        margin: 10px;
+    }
+.image-masjid {
+    width: 100%;
+    height: 180px ;
+}
+}
+
+/* 
+.thumbnails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    background: linear-gradient(#00335caa , #009688), url("imgs/bckgrnd.jpg");
+}
+ .box{
+    flex-basis: 27%;
+    background: #007070;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+.box img{
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 200px;
+} */

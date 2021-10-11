@@ -324,6 +324,7 @@ nav .bi {
         font-size: 56px;
         line-height: 1;
         padding-bottom: 20px;
+        -webkit-text-stroke: 1px #383d52;
         text-shadow: 5px 5px 30px rgba(0, 0, 0);
     }
     .banner-text p {
@@ -378,6 +379,7 @@ nav .bi {
     display: flex;
     align-items: center;
     text-align: left;
+    padding: 5px 0;
 }
 .about-text {
     flex-basis: 55%;
@@ -450,11 +452,13 @@ nav .bi {
     left: 0;
     background: #fff;
     border: 1px solid #00335c;
+    visibility: hidden;
     z-index: -1;
     transition: 0.5s;
 }
 .about-btn a:hover span{
     width: 100%;
+    visibility:visible;
 }
 .about-btn a:hover{
     color: #00335c;
